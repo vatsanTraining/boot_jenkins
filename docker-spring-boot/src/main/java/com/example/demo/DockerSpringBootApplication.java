@@ -16,6 +16,8 @@ public class DockerSpringBootApplication {
 	@GetMapping(path = "/greet")
 	public String getMessage() {
 		
+		System.out.println("Hello world");
+		
 		return "Hello from docker app";
 	}
 }
